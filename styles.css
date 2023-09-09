@@ -1,0 +1,201 @@
+body {
+    background-color: #016798;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bussiness-card {
+    width: 1140px;
+    margin: 20% auto;
+    padding: unset;
+    display: flex;
+    height: auto;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.image {
+/*    border: 2px solid black;*/
+    height: 400px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1eb0f9;
+}
+
+.contact {
+/*    border: 2px solid black;*/
+    background-color: #18171c;
+    color: azure;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+/*    align-items: center;*/
+}
+
+.personal-details {
+    /*    border: 2px solid black;*/
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #18171c;
+    margin-left: -10px;
+    z-index: 1;
+    position: relative;
+}
+
+.masked-image {
+    width: 300px;
+    height: 300px;
+    box-shadow: 10px 10px;
+    background-image: url('assets/ada.png');
+    background-size: 70%;
+    background-position: center;
+    -webkit-mask-image: radial-gradient(circle at center, black 0%, black 50%, transparent 51%, transparent 100%);
+}
+
+.blue {
+    color: #1fb3eb;
+    font-weight: bold;
+}
+
+.ada-quantum {
+    text-align: center;
+    align-content: left;
+/*    border: 2px solid black;*/
+    margin-left: 40px;
+    margin-right: 0px;
+}
+
+.text-spacing {
+    margin: 0.1px auto;
+    text-align: left;
+    padding-left: 0px;
+    padding-right: 20px;
+/*    border: 2px solid black;*/
+}
+
+.upper {
+    text-align: left;
+}
+
+.upper:not(.blue) {
+    color: azure;
+}
+
+.bottom {
+    color: azure;
+    font-size: 0.8rem;
+}
+
+.p1 {
+    text-align: left;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 0.8rem;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.line {
+    height: 2px; /* Thickness of the line */
+    background-color: #1fb3eb; /* Color of the line */
+    margin-left: 125px; /* Space between text and line */
+    margin-right: 115px;
+}
+
+.divider {
+    display: flex;
+    align-self: flex-start;
+    border: 1px solid azure;
+    width: 8rem;
+    margin-left: 40px;
+    margin-top: 12px;
+}
+
+.divider-vertical-white {
+    display: flex;
+    align-self: flex-start;
+    border-left: 5px solid azure;
+    height: 4rem;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 100px;
+    z-index: 2;
+    position: relative;
+}
+
+.divider-vertical-blue {
+    display: flex;
+    align-self: flex-start;
+    border-left: 5px solid #1eb0f9;
+    height: 4rem;
+    margin-left: -5px;
+    margin-right: 0;
+    margin-top: 196px;
+    z-index: 2;
+    position: relative;
+
+}
+
+.company {
+    color: azure;
+    font-size: 0.9rem;
+    /*border: 2px solid white;*/
+}
+
+.company p {
+    margin-bottom: -1px;
+    margin-top: 0.1px;
+}
+
+.company img {
+    width: 20%;
+    margin-top: 0;
+/*  border: 2px solid white;*/
+}
+
+.tagline {
+    font-size: 0.5rem;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.filter {
+    filter: invert(100%);
+    width: 20%;
+    margin-left: 50px;
+    margin-bottom: -25px;
+/*    border: 2px solid black;*/
+}
+
+.logo .youtube {
+    width: 10%;
+    object-fit: contain;
+    margin-left: 0px;
+    margin-top: -20px;
+/*    border: 2px solid white;*/
+}
+
+.logo {
+    align-content: center;
+    margin-top: 20px;
+/*    border: 2px solid white;*/
+}
+
+.logo .instagram {
+    width: 8%;
+    margin-left: 20px;
+}
+
+.logo .facebook {
+    width: 9%;
+    margin-left: 20px;
+
+}
